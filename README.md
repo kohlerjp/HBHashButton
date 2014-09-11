@@ -1,7 +1,7 @@
 HBHashButton
 ============
 
-To install, download the soruce code.
+To install, download the source code.
 
 In your project add the line
 ```
@@ -13,5 +13,6 @@ UIButtons can now act like a NSMutableDictionary
 ```
 UIButton *button = [UIButton alloc]initWithFrame:CGRectMake:(0,0,100,90)];
 [button setObject:@"Hello World" forKey:@"value"];
+
 NSLog(@"Value is: %@",button objectForKey:@"value"])
 ```
