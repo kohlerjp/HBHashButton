@@ -1,7 +1,7 @@
 HBHashButton
 ============
 
-To install, download the source code.
+To install, download the source code into your project.
 
 In your project add the line
 ```
