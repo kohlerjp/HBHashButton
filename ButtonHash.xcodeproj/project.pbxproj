@@ -22,6 +22,7 @@
 		51BFED8C19C25D80008DF509 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BFED6B19C25D80008DF509 /* UIKit.framework */; };
 		51BFED9419C25D80008DF509 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51BFED9219C25D80008DF509 /* InfoPlist.strings */; };
 		51BFED9619C25D80008DF509 /* ButtonHashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BFED9519C25D80008DF509 /* ButtonHashTests.m */; };
+		51BFEDA419C25F51008DF509 /* UIButton+HBHashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BFEDA319C25F51008DF509 /* UIButton+HBHashButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		51BFED9119C25D80008DF509 /* ButtonHashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonHashTests-Info.plist"; sourceTree = "<group>"; };
 		51BFED9319C25D80008DF509 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51BFED9519C25D80008DF509 /* ButtonHashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonHashTests.m; sourceTree = "<group>"; };
+		51BFEDA219C25F51008DF509 /* UIButton+HBHashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HBHashButton.h"; sourceTree = "<group>"; };
+		51BFEDA319C25F51008DF509 /* UIButton+HBHashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HBHashButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				51BFED8019C25D80008DF509 /* ViewController.m */,
 				51BFED8219C25D80008DF509 /* Images.xcassets */,
 				51BFED6E19C25D80008DF509 /* Supporting Files */,
+				51BFEDA219C25F51008DF509 /* UIButton+HBHashButton.h */,
+				51BFEDA319C25F51008DF509 /* UIButton+HBHashButton.m */,
 			);
 			path = ButtonHash;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51BFED8119C25D80008DF509 /* ViewController.m in Sources */,
+				51BFEDA419C25F51008DF509 /* UIButton+HBHashButton.m in Sources */,
 				51BFED7819C25D80008DF509 /* AppDelegate.m in Sources */,
 				51BFED7419C25D80008DF509 /* main.m in Sources */,
 			);
